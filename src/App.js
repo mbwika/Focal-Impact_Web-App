@@ -20,7 +20,7 @@ function App() {
         {/* thin contact bar at top of hero */}
         <div className="absolute top-0 left-0 right-0 z-40 bg-black/40 text-white text-sm">
           <div className="max-w-4xl mx-auto px-4 py-2 text-center">
-            Address: Nairobi, KE | Email: focalimpactlimited@gmail.com | Phone: +254 712 345 678
+            Address: Nairobi, KE | Email: info@focalimpact.co.ke | Phone: +254 738-617-617
           </div>
         </div>
         {/* logo positioned over hero */}
@@ -130,7 +130,7 @@ function App() {
                 size="lg"
                 className="w-full bg-white text-gray-900 hover:bg-black hover:text-white"
                 onClick={() => {
-                  const whatsappUrl = `https://wa.me/254713165971`;
+                  const whatsappUrl = `https://wa.me/254738617617`;
                   const win = window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
                   if (win) win.focus();
                 }}
